@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF9D54"/>
+      <stop offset="0.56" stop-color="#FF8C42"/>
+      <stop offset="1" stop-color="#FF7A2E"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD657"/>
+      <stop offset="0.52" stop-color="#F8B81F"/>
+      <stop offset="1" stop-color="#E99A0B"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1024" height="1024" rx="218"/></clipPath>
+    <clipPath id="mouth"><rect x="250" y="372" width="524" height="292" rx="150"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1024" height="1024" fill="url(#orange)"/>
+    <rect x="-60" y="686" width="1144" height="408" rx="110" fill="#FFFDF8"/>
+    <rect x="38" y="678" width="948" height="10" rx="5" fill="#F6C36D"/>
+    <g transform="rotate(-2 512 512)">
+      <ellipse cx="500" cy="374" rx="472" ry="364" fill="#973B0A" opacity=".22"/>
+      <ellipse cx="500" cy="344" rx="482" ry="364" fill="#FFF6E9"/>
+      <ellipse cx="205" cy="466" rx="94" ry="53" fill="#FFB58A"/>
+      <ellipse cx="816" cy="466" rx="94" ry="53" fill="#FFB58A"/>
+      <path d="M158 237 C170 150 331 150 343 237" fill="none" stroke="#5A2C16" stroke-width="27" stroke-linecap="round"/>
+      <path d="M681 237 C693 150 854 150 866 237" fill="none" stroke="#5A2C16" stroke-width="27" stroke-linecap="round"/>
+      <path d="M455 332 C480 306 520 306 545 332" fill="none" stroke="#5A2C16" stroke-width="15" stroke-linecap="round"/>
+      <rect x="250" y="372" width="524" height="292" rx="150" fill="#5A2C16"/>
+      <g clip-path="url(#mouth)">
+        <rect x="284" y="399" width="456" height="87" rx="39" fill="#FFFDF6"/>
+        <ellipse cx="512" cy="640" rx="127" ry="85" fill="#FF6F5D"/>
+      </g>
+      <rect x="250" y="372" width="524" height="292" rx="150" fill="none" stroke="#562714" stroke-width="10"/>
+      <ellipse cx="240" cy="666" rx="46" ry="49" fill="#FFD5B0"/>
+      <path d="M236 584 L193 650 L278 650 Z" fill="#FFD5B0"/>
+    </g>
+    <g fill="url(#gold)" stroke="#D9890C" stroke-width="7" paint-order="stroke">
+      <path transform="translate(329.00,896.00) scale(0.12200,-0.12200)" d="M550 696H766C808 696 850 694 888 690V812C850 808 809 806 765 806H231C183 806 146 808 109 812V690C148 694 187 696 232 696H433V479H181C129 479 87 481 51 486V364C90 369 136 371 182 371H433V46C433 -2 431 -41 426 -80H557C552 -41 550 -3 550 46V371H820C872 371 912 369 948 364V486C916 481 872 479 818 479H550Z"/>
+      <path transform="translate(451.00,896.00) scale(0.12200,-0.12200)" d="M269 395C269 419 272 453 276 485H164C168 462 169 442 169 399V395L168 130C164 106 158 97 134 81L180 -14C200 -2 200 -2 220 10C260 35 264 37 281 49C316 72 334 85 377 121L371 241C339 213 296 180 269 163ZM546 573 548 690C726 701 813 713 939 746L868 839C824 819 746 801 656 792C580 784 546 783 432 783C439 736 440 708 440 626C440 361 432 265 404 172C382 99 356 53 303 -7C341 -32 359 -48 390 -86C423 -41 437 -19 452 10C480 63 503 123 515 176C532 249 540 339 542 476H549C577 329 600 268 665 165C610 100 556 59 461 12C486 -16 496 -33 523 -84C620 -26 679 22 730 86C794 12 837 -24 926 -79C948 -20 957 -3 981 27C893 73 850 105 792 167C840 241 872 315 900 418C923 501 923 501 931 521L878 578C861 574 842 573 797 573ZM808 476C787 370 770 324 728 252C685 328 664 383 645 476ZM307 594C297 565 291 552 277 527C295 521 302 517 334 497C354 485 354 485 363 480C377 508 398 557 414 603C421 622 425 631 435 645L371 694C355 689 340 687 321 687H317L227 689C232 704 238 727 249 775C250 780 251 781 252 785C255 799 256 803 262 817L140 837C136 770 126 718 103 648C80 579 59 538 26 493C52 480 64 471 122 419C156 472 174 514 199 595Z"/>
+      <path transform="translate(573.00,896.00) scale(0.12200,-0.12200)" d="M433 827C436 801 437 779 437 742C437 504 382 339 254 191C191 119 138 78 36 24C72 -8 91 -33 114 -79C184 -36 217 -12 269 36C340 101 383 155 423 228C464 304 482 350 501 430C535 315 573 238 634 157C705 63 766 6 888 -79C912 -31 928 -7 966 32C900 67 870 88 811 140C740 202 696 255 653 330C581 458 555 564 555 734C555 758 559 814 562 827Z"/>
+    </g>
+  </g>
+</svg>
