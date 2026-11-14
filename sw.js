@@ -97,7 +97,9 @@ async function cacheFirst(request, cacheName) {
 async function networkFirst(request, cacheName) {
   const cache = await caches.open(cacheName)
   try {
-    const response = await fetch(request)
+    // GitHub Pages 的 HTML 默认缓存 10 分钟，这里强制绕开 HTTP 缓存，
+    // 保证老板一刷新就能拿到刚发布的版本。
+    const response = await fetch(request, { cache: 'reload' })
     if (response && response.ok) cache.put(request, response.clone())
     return response
   } catch (error) {
