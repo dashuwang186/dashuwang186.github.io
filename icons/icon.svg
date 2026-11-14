@@ -17,6 +17,7 @@
     <rect width="1024" height="1024" fill="url(#orange)"/>
     <rect x="-60" y="686" width="1144" height="408" rx="110" fill="#FFFDF8"/>
     <rect x="38" y="678" width="948" height="10" rx="5" fill="#F6C36D"/>
+    <g transform="translate(0,-60) translate(512 512) scale(0.76) translate(-512 -512)">
     <g transform="rotate(-2 512 512)">
       <ellipse cx="500" cy="374" rx="472" ry="364" fill="#973B0A" opacity=".22"/>
       <ellipse cx="500" cy="344" rx="482" ry="364" fill="#FFF6E9"/>
@@ -33,6 +34,7 @@
       <rect x="250" y="372" width="524" height="292" rx="150" fill="none" stroke="#562714" stroke-width="10"/>
       <ellipse cx="240" cy="666" rx="46" ry="49" fill="#FFD5B0"/>
       <path d="M236 584 L193 650 L278 650 Z" fill="#FFD5B0"/>
+    </g>
     </g>
     <g fill="url(#gold)" stroke="#D9890C" stroke-width="7" paint-order="stroke">
       <path transform="translate(329.00,896.00) scale(0.12200,-0.12200)" d="M550 696H766C808 696 850 694 888 690V812C850 808 809 806 765 806H231C183 806 146 808 109 812V690C148 694 187 696 232 696H433V479H181C129 479 87 481 51 486V364C90 369 136 371 182 371H433V46C433 -2 431 -41 426 -80H557C552 -41 550 -3 550 46V371H820C872 371 912 369 948 364V486C916 481 872 479 818 479H550Z"/>
