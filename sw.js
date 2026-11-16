@@ -10,11 +10,11 @@
  * 3. 其它 GET（图片、签名链接等）：网络优先 + 缓存兜底。
  * 4. 带令牌的云函数调用（POST）不缓存，避免把带令牌的响应写进磁盘。
  */
-// 第 126 轮：缓存名升到 v10（第 123 轮升到 v8，第 125 轮升到 v9）——发布新版本时旧缓存会被 activate 阶段清掉，
+// 第 128 轮：缓存名升到 v11（第 126 轮升到 v10（第 123 轮升到 v8，第 125 轮升到 v9）——发布新版本时旧缓存会被 activate 阶段清掉，
 // 免得手机上继续用着老 js/css。
-const SHELL_CACHE = 'shiguang-shell-v10'
-const ASSET_CACHE = 'shiguang-assets-v10'
-const RUNTIME_CACHE = 'shiguang-runtime-v10'
+const SHELL_CACHE = 'shiguang-shell-v11'
+const ASSET_CACHE = 'shiguang-assets-v11'
+const RUNTIME_CACHE = 'shiguang-runtime-v11'
 const SHELL_URLS = ['/', '/index.html', '/manifest.webmanifest', '/icons/icon-192.png', '/icons/icon-512.png']
 
 /**
