@@ -12,9 +12,9 @@
  */
 // 第 123 轮：缓存名升到 v8（第 74 轮升到 v5）——发布新版本时旧缓存会被 activate 阶段清掉，
 // 免得手机上继续用着老 js/css。
-const SHELL_CACHE = 'shiguang-shell-v8'
-const ASSET_CACHE = 'shiguang-assets-v8'
-const RUNTIME_CACHE = 'shiguang-runtime-v8'
+const SHELL_CACHE = 'shiguang-shell-v9'
+const ASSET_CACHE = 'shiguang-assets-v9'
+const RUNTIME_CACHE = 'shiguang-runtime-v9'
 const SHELL_URLS = ['/', '/index.html', '/manifest.webmanifest', '/icons/icon-192.png', '/icons/icon-512.png']
 
 /**
